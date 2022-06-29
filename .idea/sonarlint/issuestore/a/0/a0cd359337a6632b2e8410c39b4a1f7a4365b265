@@ -1,0 +1,56 @@
+
+u
+java:S1149E"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(üî„µ
+v
+java:S1149Ï"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+{
+java:S1149Ø"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÕæÔ€şÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ÄıÀµ
+\	java:S899"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ
+h
+java:S3776@"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(›®»ª
+@
+java:S5869K"*Remove duplicates in this character class.(ê×„
+E
+java:S5869Q"*Remove duplicates in this character class.(ÚÕÀğûÿÿÿÿ
+E
+java:S5869i"*Remove duplicates in this character class.(œÃ¥§ûÿÿÿÿ
+E
+java:S5869s"*Remove duplicates in this character class.(¯»ïûÿÿÿÿ
+b
+java:S5998{"LRefactor this repetition that can lead to a stack overflow for large inputs.(ÿëã±
+n
+java:S3776¢"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ç¨”·ıÿÿÿÿ
+_
+java:S5361§"HReplace this call to "replaceAll()" by a call to the "replace()" method.(„÷Õß
+S
+java:S4719¨"<Replace charset name argument with StandardCharsets.US_ASCII(‘Û—‰
+U
+java:S4719Æ"9Replace charset name argument with StandardCharsets.UTF_8(äÕ±ÿıÿÿÿÿ
+n
+java:S3776Í"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ãÏ¯öıÿÿÿÿ
+P
+java:S4719İ"9Replace charset name argument with StandardCharsets.UTF_8(üŒïı
+t
+java:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÜŞÚòøÿÿÿÿ
+e
+java:S1192."JDefine a constant instead of duplicating this literal "TEL;HOME:" 3 times.(‚ÆÉáùÿÿÿÿ
+n	java:S127¹"XRefactor the code in order to not assign to this loop counter from within the loop body.(¦õ©“
+n	java:S127º"XRefactor the code in order to not assign to this loop counter from within the loop body.(×³×”
+Q
+java:S1141¸"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+g	java:S117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶—¢Ê
+l	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤øÿÿÿÿ
+8
+java:S1643•"Use a StringBuilder instead.( ˜ñ¨ıÿÿÿÿ
+
+java:S1488"dImmediately return this expression instead of assigning it to the temporary variable "addressBeans".(³¿—ûÿÿÿÿ
+W
+java:S4973("<Strings and Boxed types should be compared using "equals()".(Ø†ßÖúÿÿÿÿ
+W
+java:S4973-"<Strings and Boxed types should be compared using "equals()".(ÒÖŞœøÿÿÿÿ
+R
+java:S49731"<Strings and Boxed types should be compared using "equals()".(ñ¿Ÿ
+b
+java:S2095 "LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(Ê±ÏÉ

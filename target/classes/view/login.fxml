@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<AnchorPane prefHeight="341.0" prefWidth="634.0" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.loginController" stylesheets="@../static/style/style.css">
+    <children>
+        <TextField fx:id="userId" layoutX="160.0" layoutY="41.0" />
+        <Label layoutX="69.0" layoutY="46.0" prefHeight="20.0" prefWidth="55.0" text="用户名" />
+        <TextField fx:id="password" layoutX="160.0" layoutY="81.0" />
+        <Label layoutX="69.0" layoutY="86.0" prefHeight="20.0" prefWidth="55.0" text="密码" />
+        <Button layoutX="186.0" layoutY="237.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="91.0" text="注 册" onAction="#register">
+            <graphic>
+                <FontIcon fill="white" iconLiteral="fa-mail-reply-all"/>
+            </graphic>
+        </Button>
+        <Button layoutX="351.0" layoutY="237.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="91.0" text="登 录" onAction="#login">
+            <graphic>
+                <FontIcon fill="white" iconLiteral="fa-floppy-o"/>
+            </graphic>
+        </Button>
+    </children>
+</AnchorPane>

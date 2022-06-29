@@ -1,0 +1,91 @@
+
+.root {
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 14px;
+    -fx-background-image: url(../image/bg.jpeg);
+    -fx-background-size: stretch stretch;
+    -fx-background-position: center center;
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#5996c6, #4e55c6);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+    -fx-background-radius: 4;
+}
+
+.choice-box{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#5996c6, #4e55c6);
+}
+
+/*hover伪类选择器设置鼠标移过Button时的背景色*/
+.button:hover {
+    -fx-text-fill: #5c89fe;
+    -fx-background-color: linear-gradient(#236271, #2c4293);
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 0, 0, 0, 1);
+}
+
+
+/*设置表格头靠左、字体大小，字体颜色*/
+.table-view .column-header .label{
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Header Sort Arrows */
+.table-view /*> column-header-background > nested-column-header >*/ .arrow{
+    -fx-background-color: -fx-mark-color;
+    -fx-padding: 0.25em 0.3125em 0.25em 0.3125em; /* 3 3.75 3 3.75 */
+    -fx-shape: "M 0 0 h 7 l -3.5 4 z";
+}
+
+#selectLabel{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+}
+
+#deleteUserButton:hover,
+#deleteGroupButton:hover{
+    -fx-text-fill: #580303;
+    -fx-background-color: linear-gradient( #dc3d3d, #dc3d3d);
+}
+
+#addUserButton:hover,
+#addGroupButton:hover{
+    -fx-text-fill: #356121;
+    -fx-background-color: linear-gradient( #78e387, #45af4b);
+}
+
+#groupBox{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-radius: 10;
+    -fx-background-radius: 6;
+}
+
+.text-field{
+    -fx-font-weight: bold;
+
+    -fx-border-width: 2;
+
+    -fx-border-radius: 10;
+
+    -fx-background-radius: 10;
+
+    -fx-border: gone;
+
+}

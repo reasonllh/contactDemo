@@ -1,0 +1,63 @@
+
+.root {
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 14px;
+    -fx-background-image: url(../image/bg.jpeg);
+    -fx-background-size: stretch stretch;
+    -fx-background-position: center center;
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#5996c6, #4e55c6);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+    -fx-background-radius: 4;
+}
+
+.choice-box{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#5996c6, #4e55c6);
+}
+
+#groupbox{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+/*hover伪类选择器设置鼠标移过Button时的背景色*/
+.button:hover {
+    -fx-text-fill: orange;
+    -fx-background-color: linear-gradient(#236271, #2c4293);
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 0, 0, 0, 1);
+}
+
+.choice-box .label{
+    -fx-text-fill: black;
+}
+
+.text-field{
+    -fx-font-weight: bold;
+
+    -fx-border-width: 2;
+
+    -fx-border-radius: 10;
+
+    -fx-background-radius: 10;
+
+    -fx-border: gone;
+
+}

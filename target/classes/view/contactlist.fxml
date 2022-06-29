@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<AnchorPane prefHeight="666.0" prefWidth="1234.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ContactListController" stylesheets="@../static/style/contactlist.css">
+   <children>
+      <TextField fx:id="searchField" layoutX="954.0" layoutY="60.0" prefHeight="28.0" prefWidth="139.0" />
+      <Button layoutX="1095.0" layoutY="60.0" mnemonicParsing="false" onAction="#search" prefHeight="28.0" prefWidth="28.0">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-search" iconSize="18"/>
+         </graphic>
+      </Button>
+      <TableView fx:id="userTab" layoutX="360.0" layoutY="90.0" prefHeight="493.0" prefWidth="770.0"/>
+      <Button layoutX="547.0" layoutY="60.0" mnemonicParsing="false" onAction="#toUpdate" prefWidth="69.0" text="修改">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-edit"/>
+         </graphic>
+      </Button>
+      <Button id="deleteUserButton" layoutX="474.0" layoutY="60.0" mnemonicParsing="false" onAction="#deleteUser"  prefWidth="69.0" text="删除">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-trash"/>
+         </graphic>
+      </Button>
+      <Button id="addUserButton" layoutX="360.0" layoutY="60.0" mnemonicParsing="false" onAction="#addUser" prefWidth="110.0" text="新建联系人">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-user-plus"/>
+         </graphic>
+      </Button>
+      <Button layoutX="635.0" layoutY="60.0" mnemonicParsing="false" onAction="#moveUserFromGroup"  prefWidth="109.0"  text="从分组中移除" />
+      <ChoiceBox fx:id="groupBox" layoutX="762.0" layoutY="60.0" prefWidth="80.0" prefHeight="25.0" />
+<!--      <Label id="selectLabel" layoutX="768.0" layoutY="62.0" prefHeight="20.0" prefWidth="59.0" text="请选择"/>-->
+      <Button layoutX="843.0" layoutY="60.0" mnemonicParsing="false" onAction="#moveGroup" prefWidth="80.0" text="移动分组" />
+      <TableView fx:id="groupTab" layoutX="100.0" layoutY="90.0" prefHeight="493.0" prefWidth="130.0">
+        <columns>
+
+        </columns>
+      </TableView>
+      <Label layoutX="59.0" layoutY="45.0" />
+      <Button layoutX="360.0" layoutY="585.0" mnemonicParsing="false" prefWidth="120.0" prefHeight="30.0" text="全 部 联 系 人" onAction="#showAllUser">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-address-book-o"/>
+         </graphic>
+      </Button>
+      <Button layoutX="481.0" layoutY="585.0" mnemonicParsing="false" prefWidth="100.0" prefHeight="30.0" text="未 分 组" onAction="#showNoGroupUser">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-address-card"/>
+         </graphic>
+      </Button>
+      <Button id="addGroupButton" layoutX="100.0" layoutY="60.0" mnemonicParsing="false" onAction="#addGroup" prefWidth="65.0" text="新建组" />
+      <Button id="deleteGroupButton" layoutX="165.0" layoutY="60.0" mnemonicParsing="false" onAction="#deleteGroup" prefWidth="65.0" text="删除组">
+      </Button>
+      <Button layoutX="100.0" layoutY="585.0" mnemonicParsing="false" onAction="#toUpdateGroup" prefWidth="130.0" prefHeight="30.0" text="修 改 分 组">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-edit"/>
+         </graphic>
+      </Button>
+      <Button layoutX="770.0" layoutY="585.0" mnemonicParsing="false" onAction="#importUser" prefHeight="30.0" prefWidth="90.0" text="导入 csv">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-cloud-upload"/>
+         </graphic>
+      </Button>
+      <Button layoutX="860.0" layoutY="585.0" mnemonicParsing="false" onAction="#exportUser" prefHeight="30.0" prefWidth="90.0" text="导出 csv">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-cloud-download"/>
+         </graphic>
+      </Button>
+      <Button layoutX="950.0" layoutY="585.0" mnemonicParsing="false" onAction="#importVcf" prefHeight="30.0" prefWidth="90.0" text="导入 vcf">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-cloud-upload"/>
+         </graphic>
+      </Button>
+      <Button layoutX="1040.0" layoutY="585.0" mnemonicParsing="false" onAction="#exportVcf" prefHeight="30.0" prefWidth="90.0" text="导出 vcf">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-cloud-download"/>
+         </graphic>
+      </Button>
+
+
+   </children>
+</AnchorPane>

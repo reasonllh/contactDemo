@@ -1,0 +1,21 @@
+
+Z
+java:S2147"DCombine this catch with the one at line 22, which has the same body.(É®£
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+j
+java:S2095~"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(®…Áùúÿÿÿÿ
+f
+java:S2095•"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(²Æ®á
+e
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ó¹áÓ
+j
+java:S2095Y"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(”š× øÿÿÿÿ
+e
+java:S2095t"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‘Ê¨Æ
+f
+java:S2095‰"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ˆÑœï
+k
+java:S2095¥"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÃŒ‚Øÿÿÿÿÿ
+j
+java:S2095B"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊŞûÿÿÿÿ

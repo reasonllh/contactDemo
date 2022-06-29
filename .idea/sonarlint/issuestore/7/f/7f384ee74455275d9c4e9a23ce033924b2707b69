@@ -1,0 +1,23 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ÉÏá’
+H
+java:S1874"2Remove this use of "withHeader"; it is deprecated.(û¥ä
+H
+java:S1874."2Remove this use of "withHeader"; it is deprecated.(Šâ¢
+U
+java:S1874."?Remove this use of "withFirstRecordAsHeader"; it is deprecated.(Šâ¢
+R
+java:S1874."<Remove this use of "withIgnoreHeaderCase"; it is deprecated.(Šâ¢
+F
+java:S1874/"0Remove this use of "withTrim"; it is deprecated.(÷…îü
+M
+java:S18741"2Remove this use of "withHeader"; it is deprecated.(¼”¹èıÿÿÿÿ
+W
+java:S18741"<Remove this use of "withIgnoreHeaderCase"; it is deprecated.(¼”¹èıÿÿÿÿ
+K
+java:S18741"0Remove this use of "withTrim"; it is deprecated.(¼”¹èıÿÿÿÿ
+g
+java:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ä–¦Ãúÿÿÿÿ
+^
+java:S2095"HUse try-with-resources or close this "CSVPrinter" in a "finally" clause.(û¥ä

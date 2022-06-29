@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<AnchorPane prefHeight="141.0" prefWidth="434.0" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddGroupController" stylesheets="@../static/style/style.css">
+   <children>
+      <TextField fx:id="groupfield" layoutX="150.0" layoutY="41.0" />
+      <Label layoutX="59.0" layoutY="46.0" prefHeight="20.0" prefWidth="55.0" text="组名" />
+      <Button layoutX="116.0" layoutY="97.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="81.0" text="返 回" onAction="#cancel">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-mail-reply-all"/>
+         </graphic>
+      </Button>
+      <Button layoutX="251.0" layoutY="97.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="81.0" text="添 加" onAction="#saveGroup">
+         <graphic>
+            <FontIcon fill="white" iconLiteral="fa-floppy-o"/>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
